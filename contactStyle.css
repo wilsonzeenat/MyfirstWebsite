@@ -1,0 +1,44 @@
+@font-face{
+  font-family: Tangerine;
+  src: url(Tangerine-Bold.ttf);
+}
+
+
+/* Rule for main layout */
+main {
+
+  width: inherit;
+
+}
+
+
+/* Rule for div container */
+#contact {
+
+  width: 50%;
+  margin: auto;
+  background-color: rgba(100,149,237,0.1);
+  border: 1px solid black;
+  overflow: auto;
+
+}
+
+/* Rule for heading on page */
+
+h4 {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  color: rgb(0,100,0);
+
+}
+
+
+.contact {
+  text-align: center;
+
+}
+
+/* Rule for highlighting text in the div container */
+.cont {
+  color: rgb(75,0,130);
+}

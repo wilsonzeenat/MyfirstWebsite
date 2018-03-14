@@ -1,0 +1,29 @@
+@font-face{
+  font-family: Tangerine;
+  src: url(Tangerine-Bold.ttf);
+}
+
+
+/* Main section layout specification */
+main {
+  width: 100%;
+
+}
+/* Heading rule */
+h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  padding-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+  color: rgb(47,79,79);
+
+}
+
+/* Rule for styling list on page */
+#list {
+  list-style-type: square;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  color: rgb(128,0,0);
+}

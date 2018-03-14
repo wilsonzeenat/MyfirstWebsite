@@ -1,0 +1,54 @@
+@font-face{
+  font-family: Tangerine;
+  src: url(Tangerine-Bold.ttf);
+}
+
+
+/* Main section layout */
+main {
+  display: flex;
+
+}
+
+/* Rule for div containers */
+.layout {
+
+  flex: 1;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+/* layout specification for article container */
+article {
+  width: 90%;
+  margin: 25% auto;
+  padding: 10px;
+  background-color: rgb(0,0,0);
+  box-sizing: border-box;
+}
+
+
+/* Layout specification for image container*/
+section {
+   width: 100%;
+
+}
+
+/* Rule for section content */
+ section img {
+  width: 100%;
+  min-width: 430px;
+
+}
+
+h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 30px;
+  color: rgb(240,128,128);
+}
+
+p {
+
+  color: rgba(255,255,255,0.8);
+}

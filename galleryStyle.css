@@ -1,0 +1,49 @@
+@font-face{
+  font-family: Tangerine;
+  src: url(Tangerine-Bold.ttf);
+}
+
+
+/* Main container rule for page*/
+main {
+  display: flex;
+}
+
+ /* Container rule for entire gallery */
+ div.gal {
+   width: 60%;
+   margin: 30px auto;;
+   background-color: black;
+   border: 1px solid black;
+   text-align: center;
+
+ }
+
+ /* Container rule for each image */
+ div.img {
+  width: 300px;
+  height: 310px;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  float: left;
+
+}
+
+/* Image specification */
+div.img img {
+  width: 300px;
+  height: 310px;
+
+}
+
+/* Gallery title rule */
+.gal h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Tangerine', serif;
+  font-size: 40px;
+
+  color: brown;
+}
